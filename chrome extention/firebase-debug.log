@@ -1,0 +1,79 @@
+[debug] [2024-06-22T14:10:02.622Z] ----------------------------------------------------------------------
+[debug] [2024-06-22T14:10:02.625Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aishwarya\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-06-22T14:10:02.625Z] CLI Version:   13.11.4
+[debug] [2024-06-22T14:10:02.625Z] Platform:      win32
+[debug] [2024-06-22T14:10:02.625Z] Node Version:  v20.11.1
+[debug] [2024-06-22T14:10:02.625Z] Time:          Sat Jun 22 2024 19:40:02 GMT+0530 (India Standard Time)
+[debug] [2024-06-22T14:10:02.625Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-22T14:10:02.631Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-22T14:10:02.632Z] > authorizing via signed-in user (21cse066aishwarya@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Aishwarya\Desktop\javaScript Projects\chrome extention
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-06-22T14:10:13.143Z] > refreshing access token with scopes: []
+[debug] [2024-06-22T14:10:13.146Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-06-22T14:10:13.146Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-22T14:10:13.432Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-06-22T14:10:13.433Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-22T14:10:13.444Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-06-22T14:10:14.059Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-06-22T14:10:14.059Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project myextensionchrome (MyExtensionChrome) 
+[info] 
+=== Hosting Setup
+[debug] [2024-06-22T14:10:16.916Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/myextensionchrome [none]
+[debug] [2024-06-22T14:10:17.345Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/myextensionchrome 200
+[debug] [2024-06-22T14:10:17.345Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/myextensionchrome {"projectId":"myextensionchrome","projectNumber":"952903345898","displayName":"MyExtensionChrome","name":"projects/myextensionchrome","resources":{"hostingSite":"myextensionchrome"},"state":"ACTIVE","etag":"1_cc39edb4-f350-45a8-a14e-bccb8c5d9304"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-06-22T14:10:33.350Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-06-22T14:10:33.473Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-06-22T14:10:33.473Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.12.2","browserURL":"https://www.gstatic.com/firebasejs/10.12.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.12.2/firebase.tgz"},"live":{"version":"10.12","browserURL":"https://www.gstatic.com/firebasejs/live/10.12/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.12/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.12.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.12.2/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/10.12.2/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/10.12.2/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.12.2/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.12.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.12.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.12.2/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.12.2/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.12.2/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js","vertexai-preview":"https://www.gstatic.com/firebasejs/10.12.2/firebase-vertexai-preview.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.memory.js"}}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\Aishwarya 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=527533398&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-06-22T14:10:42.537Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2024-06-22T14:10:42.537Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2024-06-22T14:10:42.958Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2024-06-22T14:10:42.958Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2024-06-22T14:10:42.974Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2024-06-22T14:10:43.457Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2024-06-22T14:10:43.458Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Aishwarya-066","id":111353857,"node_id":"U_kgDOBqMgAQ","avatar_url":"https://avatars.githubusercontent.com/u/111353857?v=4","gravatar_id":"","url":"https://api.github.com/users/Aishwarya-066","html_url":"https://github.com/Aishwarya-066","followers_url":"https://api.github.com/users/Aishwarya-066/followers","following_url":"https://api.github.com/users/Aishwarya-066/following{/other_user}","gists_url":"https://api.github.com/users/Aishwarya-066/gists{/gist_id}","starred_url":"https://api.github.com/users/Aishwarya-066/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Aishwarya-066/subscriptions","organizations_url":"https://api.github.com/users/Aishwarya-066/orgs","repos_url":"https://api.github.com/users/Aishwarya-066/repos","events_url":"https://api.github.com/users/Aishwarya-066/events{/privacy}","received_events_url":"https://api.github.com/users/Aishwarya-066/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":19,"public_gists":0,"followers":0,"following":0,"created_at":"2022-08-16T10:37:24Z","updated_at":"2024-06-22T14:10:38Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":15962,"collaborators":1,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as Aishwarya-066 
+[info] 
+[debug] [2024-06-22T14:45:36.441Z] >>> [apiv2][query] GET https://api.github.com/repos/n/actions/secrets/public-key type=owner
+[debug] [2024-06-22T14:45:36.816Z] <<< [apiv2][status] GET https://api.github.com/repos/n/actions/secrets/public-key 404
+[debug] [2024-06-22T14:45:36.816Z] <<< [apiv2][body] GET https://api.github.com/repos/n/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 

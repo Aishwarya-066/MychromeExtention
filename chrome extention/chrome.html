@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chromeExtention</title>
+</head>
+<body>
+    <style>
+        body{
+            margin: 0;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            min-width: 400px;
+        }
+        button{
+             color:white;
+             background-color: lightsalmon;
+             font-size: 18px;
+             padding: 10px;
+             width: 125px;
+             border-color: lightsalmon ;
+             font-weight: bold;
+        }
+        #delete-btn{
+            color: lightsalmon;
+            background-color: white;
+             font-size: 18px;
+             padding: 10px;
+             width: 125px;
+             border-color:lightsalmon;
+             font-weight: bold;
+        }
+        #input-el{
+            width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid lightsalmon;
+    margin-bottom: 4px;
+        }
+
+        ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a {
+    color: lightsalmon;
+}
+    </style>
+    <input type="text" id="input-el">
+    <br>
+   <!-- <button id="input-btn" onclick="save()">Save Input</button>-->
+   <button id="input-btn">Save Input</button>
+   <button id="tab-btn">Save Tab</button>
+   <button id="delete-btn">Delete All</button>
+   <ul id="ul-el"></ul>
+    <script src="chro.js"></script>
+</body>
+</html>

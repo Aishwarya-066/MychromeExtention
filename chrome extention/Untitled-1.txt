@@ -1,0 +1,3 @@
+* one computer and other human
+* computer respond based on human
+* always start with x
